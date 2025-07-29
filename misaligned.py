@@ -1,3 +1,6 @@
+def get_pair_number(major, minor):
+    return major * 5 + minor + 1
+
 
 def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
@@ -9,5 +12,8 @@ def print_color_map():
 
 
 result = print_color_map()
-assert(result == 25)
+assert(get_pair_number(0,0) == 1)
+assert(get_pair_number(0,1) == 2)
+assert(get_pair_number(1,0) == 6)
+assert(get_pair_number(4,4) == 25)
 print("All is well (maybe!)")

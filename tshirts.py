@@ -9,7 +9,7 @@ def size(cms):
 
 
 assert(size(37) == 'S')
-assert(size(38) == 'M')  # This is the edge case that needs attention
+assert(size(38) == 'M')  
 assert(size(40) == 'M')
 assert(size(43) == 'L')
 print("All is well (maybe!)")
